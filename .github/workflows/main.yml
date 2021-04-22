@@ -80,6 +80,7 @@ jobs:
       # Deploy push to AWS S3
       - name: AWS Deploy push
         run: |
+          aws sts get-caller-identity
           aws deploy push \
           --application-name ${{ matrix.appname }} \
           --description "This is a revision for the ${{ matrix.appname }}-${{ github.sha }}" \
