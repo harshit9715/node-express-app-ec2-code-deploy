@@ -38,7 +38,7 @@ jobs:
       matrix:
         python-version: [3.8]
         node-version: ['12.x']
-        appname: ['node-express-app']
+        appname: ['my-express-app']
         deploy-group: ['staging']
         s3-bucket: ['gh-code-deploy']
         s3-filename: ['staging-aws-codedeploy-${{ github.sha }}']
