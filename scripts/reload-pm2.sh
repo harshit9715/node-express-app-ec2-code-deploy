@@ -1,3 +1,3 @@
 #! /bin/bash
-cd ~/aws-codedeploy
+cd ~/my-express-app
 pm2 startOrReload ecosystem.config.js 
