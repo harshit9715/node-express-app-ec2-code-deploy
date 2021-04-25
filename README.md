@@ -29,5 +29,5 @@ sudo yum install -y nodejs
 sudo npm install pm2@latest -g
 ```
 
-## Refreences
+## Refrences
 [github actions for ci cd with ec2 codedeploy and s3](https://medium.com/codemonday/github-actions-for-ci-cd-with-ec2-codedeploy-and-s3-e93e75bf1ce0)
